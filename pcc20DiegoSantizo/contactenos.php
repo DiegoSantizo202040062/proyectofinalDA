@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://bootswatch.com/5/lux/bootstrap.min.css">
 
     <!-- CSS CSS -->
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="marco.css">
     <title>Inicio</title>
 </head>
 
@@ -26,41 +26,16 @@
         </div>
 
         <div class="btn-group w-100">
-            <button type="button" class="btn btn-warning btn-block"><a href="productos.php">Productos</a></button>
-            <button type="button" class="btn btn-info btn-block"><a href="tiendas.php">Tiendas</a></button>
-            <button type="button" class="btn btn-danger btn-block"><a href="contactenos.php">Contactenos</a></button>
+            <button type="button" class="btn btn-warning btn-block"><a href="index.html">Inicio</a></button>
+            <button type="button" class="btn btn-info btn-block"><a href="productos.php">Productos</a></button>
+            <button type="button" class="btn btn-danger btn-block"><a href="tiendas.php">Tiendas</a></button>
         </div>
 
     </header>
 
     <br><br>
 
-
-    <h3>Ofertas Del Mes :D</h3>
-
-    <br><br>
-
-
-    <div class="row">
-        <div class="col">
-            <div class="row text-center"><img src="img/oferta1.png" width="690px" height="500px"
-                    style="background-color: #F0F08D;"><br>
-            </div>
-        </div>
-        <div class="col">
-            <div class="row">
-                <div class="col-6 text-justify"><img src="img/oferta2.png" height="250px" width="350px"
-                        style="background-color: #B7FCBA;"> </div>
-                <div class="col-3 text-justify"><img src="img/oferta3.png" height="250px" width="350px"
-                        style="background-color: #FCFCAB;"> </div>
-            </div>
-            <br>
-            <div class="row">
-                <div class="col text-center"><img src="img/oferta4.png" height="450px" width="650px"
-                        style="background-color: #FCCBAB;"> </div>
-            </div>
-        </div>
-    </div>
+    asdfgasdgag
 
     <br><br><br>
 
