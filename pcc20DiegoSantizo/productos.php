@@ -7,21 +7,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
 
     <!-- Bootswatch CSS -->
     <link rel="stylesheet" href="https://bootswatch.com/5/lux/bootstrap.min.css">
 
-    <!-- CSS CSS -->
-    <link rel="stylesheet" href="marco.css">
     <title>Productos</title>
 </head>
 
 <body>
     <header>
 
-        <div class="container text-center" style="background-color:#F0F08D;">
+        <div class="container text style=" background-color:#F0F08D;">
             <img src="img/logo.png" height="550" width="1200">
         </div>
 
@@ -35,16 +32,95 @@
 
     <br><br>
 
-    asdfgasdgag
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <center><img src="img/producto1.jpg" width="300px" height="300px"></center><br>
+                <center> Artesania </center>
+                <center><b>Precio Q.25.00</b></center>
+                <center><button type="button" class="btn btn-outline-primary">Mas Información</button></center>
+            </div>
+            <div class="col-3">
+                <center><img src="img/producto2.jpg" width="300px" height="300px"></center><br>
+                <center> Artesania </center>
+                <center><b>Precio Q.25.00</b></center>
+                <center><button type="button" class="btn btn-outline-primary">Mas Información</button></center>
+            </div>
+            <div class="col-3">
+                <center><img src="img/producto3.jpg" width="300px" height="300px"></center><br>
+                <center> Artesania </center>
+                <center><b>Precio Q.25.00</b></center>
+                <center><button type="button" class="btn btn-outline-primary">Mas Información</button></center>
+            </div>
+            <div class="col-3">
+                <center><img src="img/producto4.jpg" width="300px" height="300px"></center><br>
+                <center> Artesania </center>
+                <center><b>Precio Q.25.00</b></center>
+                <center><button type="button" class="btn btn-outline-primary">Mas Información</button></center>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-3">
+                <center><img src="img/producto5.jpg" width="300px" height="300px"></center><br>
+                <center> Artesania </center>
+                <center><b>Precio Q.25.00</b></center>
+                <center><button type="button" class="btn btn-outline-primary">Mas Información</button></center>
+            </div>
+            <div class="col-3">
+                <center><img src="img/producto6.jpg" width="300px" height="300px"></center><br>
+                <center> Artesania </center>
+                <center><b>Precio Q.25.00</b></center>
+                <center><button type="button" class="btn btn-outline-primary">Mas Información</button></center>
+            </div>
+            <div class="col-3">
+                <center><img src="img/producto7.jpg" width="300px" height="300px"></center><br>
+                <center> Artesania </center>
+                <center><b>Precio Q.25.00</b></center>
+                <center><button type="button" class="btn btn-outline-primary">Mas Información</button></center>
+            </div>
+            <div class="col-3">
+                <center><img src="img/producto8.jpg" width="300px" height="300px"></center><br>
+                <center> Artesania </center>
+                <center><b>Precio Q.25.00</b></center>
+                <center><button type="button" class="btn btn-outline-primary">Mas Información</button></center>
+            </div>
+        </div>
+        <br><br>
+        <div class="row" class="text-right">
+            <div class="col-3">
+                <center><img src="img/producto9.jpg" width="300px" height="300px"></center><br>
+                <center> Artesania </center>
+                <center><b>Precio Q.25.00</b></center>
+                <center><button type="button" class="btn btn-outline-primary">Mas Información</button></center>
+            </div>
+            <div class="col-3">
+                <center><img src="img/producto10.jpg" width="300px" height="300px"></center><br>
+                <center> Artesania </center>
+                <center><b>Precio Q.25.00</b></center>
+                <center><button type="button" class="btn btn-outline-primary">Mas Información</button></center>
+            </div>
+            <div class="col-3">
+                <center><img src="img/producto11.jpg" width="300px" height="300px"></center><br>
+                <center> Artesania </center>
+                <center><b>Precio Q.25.00</b></center>
+                <center><button type="button" class="btn btn-outline-primary">Mas Información</button></center>
+            </div>
+            <div class="col-3">
+                <center><img src="img/producto12.jpg" width="300px" height="300px"></center><br>
+                <center> Artesania </center>
+                <center><b>Precio Q.25.00</b></center>
+                <center><button type="button" class="btn btn-outline-primary">Mas Información</button></center>
+            </div>
+        </div>
+    </div>
 
     <br><br><br>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
