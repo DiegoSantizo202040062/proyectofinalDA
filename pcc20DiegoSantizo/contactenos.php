@@ -1,3 +1,4 @@
+<?php include('bd.php'); ?>
 <!doctype html>
 <html lang="en">
 
@@ -14,6 +15,8 @@
 
     <!-- CSS CSS -->
     <link rel="stylesheet" href="marco.css">
+
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <title>Inicio</title>
 </head>
 
@@ -21,13 +24,15 @@
     <header>
 
         <div class="container text-center">
-            <img src="img/logo.png" height="550" width="1200">
+            <img src="img/titulo.png" height="600" width="1500">
         </div>
+
 
         <div class="btn-group w-100">
             <button type="button" class="btn btn-warning btn-block"><a href="index.html">Inicio</a></button>
             <button type="button" class="btn btn-info btn-block"><a href="productos.php">Productos</a></button>
             <button type="button" class="btn btn-danger btn-block"><a href="tiendas.php">Tiendas</a></button>
+            <button type="button" class="btn btn-secondary btn-block"><a href="vermensajes.php">Ver Mensajes</a></button>
         </div>
 
     </header>
@@ -36,35 +41,35 @@
 
     <h1>CONTÁCTENOS</h1>
 
+    <form action="envio.php" method="POST" name="envio">
     <div class="container">
-        <form action="envio.php" method="POST">
 
             <div>
                 <label for="nombres">Nombres</label>
-                <input type="text" name="nombres" class="form-control">
+                <input type="text" name="nombres" class="form-control" id="nombres">
             </div>
             <div>
                 <label for="apellidos">Apellidos</label>
-                <input type="text" name="apellidos" class="form-control">
+                <input type="text" name="apellidos" class="form-control" id="apellidos">
             </div>
             <div>
                 <label for="telefono">Telefono / Celular</label>
-                <input type="text" name="telefono" class="form-control">
+                <input type="text" name="telefono" class="form-control" id="telefono">
             </div>
             <div>
                 <label for="correo">Correo Electronico</label>
-                <input type="email" name="correo" class="form-control">
+                <input type="text" name="correo" class="form-control" id="correo">
             </div>
             <div>
                 <label for="mensaje">Mensaje</label>
-                <input type="text" name="mensaje" class="form-control">
+                <input type="text" name="mensaje" class="form-control" id="mensaje">
             </div>
 
             <br>
 
-            <center> <input type="submit" class="btn btn-primary" value="Enviar Mensaje" name="enviar"></center>
-        </form>
+            <center> <input type="submit" class="btn btn-primary" value="enviar" name="enviar"></center>
     </div>
+    </form>
 
     <br><br><br>
 

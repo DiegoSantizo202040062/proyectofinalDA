@@ -14,6 +14,8 @@
 
     <!-- CSS CSS -->
     <link rel="stylesheet" href="marco.css">
+
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <title>Tiendas</title>
 </head>
 
@@ -21,8 +23,9 @@
     <header>
 
         <div class="container text-center">
-            <img src="img/logo.png" height="550" width="1200">
+            <img src="img/titulo.png" height="600" width="1500">
         </div>
+
 
         <div class="btn-group w-100">
             <button type="button" class="btn btn-warning btn-block"><a href="index.html">Inicio</a></button>

@@ -12,15 +12,17 @@
     <!-- Bootswatch CSS -->
     <link rel="stylesheet" href="https://bootswatch.com/5/lux/bootstrap.min.css">
 
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <title>Productos</title>
 </head>
 
 <body>
     <header>
 
-        <div class="container text style=" background-color:#F0F08D;">
-            <img src="img/logo.png" height="550" width="1200">
+        <div class="container text-center">
+            <img src="img/titulo.png" height="600" width="1500">
         </div>
+
 
         <div class="btn-group w-100">
             <button type="button" class="btn btn-warning btn-block"><a href="index.html">Inicio</a></button>
